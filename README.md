@@ -1,6 +1,8 @@
-# React + TypeScript + Vite
+# FWL Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is currently a template that provides a minimal setup to get React working in Vite with HMR and some ESLint rules. 
+
+Here is the figma link I made to design the website: https://www.figma.com/design/v1t6QDytDDjjpFwJB78q98/FWL-Website?node-id=1-902&t=Tkrs7puVrH9CCUzl-1
 
 Currently, two official plugins are available:
 
