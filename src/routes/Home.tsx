@@ -1,23 +1,13 @@
 import { useState, type FC } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 
 export const DefaultViteApp: FC = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>
-        Our mission is to make sports accessible for everyone.
+      <h1 className='font-dm text-h1'>
+        We are fencers on a mission to make sports accessible for <b>everyone.</b>
       </h1>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
