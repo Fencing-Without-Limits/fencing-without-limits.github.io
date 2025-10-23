@@ -38,6 +38,6 @@ export const Header = ({ className }: { className?: string }) => {
 
 export const HeaderSpace = () => {
     return (
-        <div className="h-24" />
+        <div className="h-[102px]" />
     )
 }
