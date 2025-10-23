@@ -1,11 +1,21 @@
-import { Routes, Route } from 'react-router'
-import { DefaultViteApp } from './pages/Home'
+import { Route, Routes } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import { LoadingFallback } from './components/Fallback';
 
-function App() {
+const Home = lazy(() => import('./routes/Home')
+  .then(mod => ({ default: mod.Home })))
+const Layout = lazy(() => import('./routes/Layout')
+  .then(mod => ({ default: mod.Layout })))
+
+const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<DefaultViteApp />} />
-    </Routes>
+    <Suspense fallback={<LoadingFallback />}>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </Suspense>
   )
 }
 
