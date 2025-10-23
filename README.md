@@ -1,6 +1,6 @@
 # FWL Website
 
-This repo is currently a template that provides a minimal setup to get React working in Vite with HMR and some ESLint rules. 
+To run the website, simply run `npm install` and `npm run dev`.
 
 Here is the figma link I made to design the website: https://www.figma.com/design/v1t6QDytDDjjpFwJB78q98/FWL-Website?node-id=1-902&t=Tkrs7puVrH9CCUzl-1
 
