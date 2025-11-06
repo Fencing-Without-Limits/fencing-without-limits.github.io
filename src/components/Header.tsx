@@ -9,24 +9,24 @@ export const Header = ({ className }: { className?: string }) => {
                 <Link to="/" className='w-14 h-auto rounded-2xl'>
                     <img src={fwlLogo} className="hover:drop-shadow-[0_0_6px_rgba(255,255,255,1)]" alt="FWL logo" />
                 </Link>
-                <nav className="w-full flex justify-end items-center text-black text-xl gap-3 rounded-2xl p-2 px-4 pointer-events-auto">
+                <nav className="w-full flex justify-end items-center text-black text-xl max-md:text-lg gap-3 rounded-2xl p-2 px-4 pointer-events-auto">
                     <Link
                         to="/about-us"
-                        className="max-md:hidden "
+                        className=""
                     >
                         About Us
                     </Link>
                     <div className="h-[80%] w-[1px] bg-black" />
                     <Link
                         to="/past-events"
-                        className="max-md:hidden "
+                        className=" "
                     >
                         Past Events
                     </Link>
                     <div className="h-[80%] w-[1px] bg-black" />
                     <Link
                         to="/apply"
-                        className="max-md:hidden "
+                        className=""
                     >
                         Apply to Host
                     </Link>
