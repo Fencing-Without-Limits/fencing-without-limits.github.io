@@ -21,11 +21,7 @@
     "noUncheckedSideEffectImports": true
   },
   "include": [
-    "vite.config.js",
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "./index.html"
+    "vite.config.ts",
+    "postcss.config.cjs"
   ]
 }
