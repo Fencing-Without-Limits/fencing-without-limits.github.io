@@ -10,12 +10,11 @@ export const Home: FC = () => {
   const [fade, setFade] = useState(false)
 
   useEffect(() => {
-    console.log("effect triggered")
     const interval = setInterval(() => {
       setFade(true);
       setTimeout(() => {
         setFade(false);
-        setCurImageIdx((curImageIdx + 1) % images.length);
+        setCurImageIdx((prev) => (prev + 1) % images.length);
       }, 1000); // Duration of fade transition
     }, 7000); // Interval of image change cycle
 
