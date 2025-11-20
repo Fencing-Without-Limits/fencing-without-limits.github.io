@@ -29,6 +29,17 @@
     }
 }
 
+.fade-in {
+  opacity: 1;
+  z-index: 2;
+}
+
+.fade-out {
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
 /* .opacity-pulse {
   opacity: 1;
   animation: opacityPulse 2s ease-in-out infinite;
