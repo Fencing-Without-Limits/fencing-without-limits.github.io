@@ -56,15 +56,31 @@ export const Home: FC = () => {
           </div>
         </div>
       </section>
-      <section id="how-it-works" className="">
-        The process<br />
-        1. We find location to Host<br />
-        2. We find charity supporting sports accessibility<br />
-        3. We run a 12 hour livestream and raise money
+      <section id="about" className="max-w-7xl mx-auto mt-16 mb-12 flex flex-row gap-8">
+        <div className="text-xl">
+          <h2 className='text-h2 mb-8'>
+            Who we are.
+          </h2>
+          <p className='mb-4'>
+            <b>Fencing Without Limits is a charity collective with the main mission of making sports accessible for everyone.</b>
+          </p>
+          <p className='mb-4'>
+            We create charity livestreams featuring fencing clubs from around the globe to raise funds and bring awareness to barriers
+            different aspiring athletes face in participating in sports.
+          </p>
+        </div>
+        <div className="border-1 border-black w-512">INSERT GROUP PHOTO HERE</div>
       </section>
-      <hr />
-      <section id="about" className="">
-        About section?
+      <section id="how-it-works" className="max-w-7xl mx-auto mt-12 *:mb-12 text-2xl">
+        <h2 className='text-h2'>
+          Here's how a <b>FWL</b> event works.
+        </h2>
+        <div className="text-h3 *:text-gray-700">
+          <div className="w-full"><b className=''>1.</b> We find amazing fencing clubs around the world, like you, to host.</div>
+          <div className="w-full"><b className=''>2.</b> The host club chooses a charity of their choice to host, who supports our core mission of sports for all.</div>
+          <div className="w-full"><b className=''>3.</b> Fencers participate in a 12-hour livestream to raise money and have fun!</div>
+        </div>
+
       </section>
       <hr />
       <section id="mailto-form" className="">

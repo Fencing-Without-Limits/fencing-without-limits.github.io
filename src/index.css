@@ -29,6 +29,28 @@
     }
 }
 
+.text-h2 {
+    font-size: 2.4rem;
+    line-height: var(--tw-leading, 1);
+    @media (width >= 48rem) {
+      font-size: 3rem;
+    }
+    @media (width >= 64rem) {
+      font-size: 3.6rem;
+    }
+}
+
+.text-h3 {
+    font-size: 1.6rem;
+    line-height: var(--tw-leading, 1);
+    @media (width >= 48rem) {
+      font-size: 2rem;
+    }
+    @media (width >= 64rem) {
+      font-size: 2.4rem;
+    }
+}
+
 .fade-in {
   opacity: 1;
   z-index: 2;
