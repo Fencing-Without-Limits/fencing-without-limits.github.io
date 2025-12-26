@@ -76,7 +76,10 @@ export const Home: FC = () => {
           Here's how a <b>FWL</b> event works.
         </h2>
         <div className="text-h3 *:text-gray-700">
-          <div className="w-full"><b className=''>1.</b> We find amazing fencing clubs around the world, like you, to host.</div>
+          <div className="w-full flex flex-row">
+            <div><b className=''>1.</b> We find amazing fencing clubs around the world, like you, to host.</div>
+            <div className='border-1 border-black'> insert image here</div>
+          </div>
           <div className="w-full"><b className=''>2.</b> The host club chooses a charity of their choice to host, who supports our core mission of sports for all.</div>
           <div className="w-full"><b className=''>3.</b> Fencers participate in a 12-hour livestream to raise money and have fun!</div>
         </div>
