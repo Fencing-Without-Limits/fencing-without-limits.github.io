@@ -77,7 +77,7 @@ export const Home: FC = () => {
               different athletes face in participating in sports.
             </p>
           </div>
-          <div className="border-1 border-black w-512">INSERT GROUP PHOTO HERE</div>
+          <div className="border-1 border-black w-512">GROUP PHOTO HERE COMING SOON</div>
         </div>
       </section>
       <section id="how-it-works" className="px-8 md:px-14 lg:px-20 my-16">
@@ -87,23 +87,21 @@ export const Home: FC = () => {
           </h2>
           <div className="text-h3 *:text-slate-800 *:mb-12 *:flex *:flex-row *:gap-12 *:items-center *:justify-between">
             <div>
-              <div className="text-center"><b>1.</b> We find amazing fencing clubs around the world, like you, to host.</div>
-              <img src="fwlpartnershipcropped.gif" alt="FWL partnership animation" className="object-cover scale-95"/>
+              <div className="text-center flex-1"><b>1.</b> We find amazing fencing clubs around the world, like you, to host.</div>
+              <img src="fwlpartnershipcropped.gif" alt="FWL partnership animation" className="object-cover w-20%" />
             </div>
             <div>
-              <div className='px-16'>
-                <div className="relative">
-                  <img src="cpslogo.png" className="absolute top-[22%] left-[33%] w-[40%] z-2"/>
-                  <img src="magnifyingglass.gif" alt="FWL charity finding animation" className="scale-175"/>
+              <div className='w-50'>
+                <div id="broken" className="relative">
+                  <img src="cpslogo.png" className="absolute top-[35%] left-[40%] w-[20%] z-2" />
+                  <img src="magnifyingglass.gif" alt="FWL charity finding animation" className="w-70 h-auto" />
                 </div>
               </div>
-              <div className="text-center"><b>2.</b> The host club chooses a charity who aligns with our core mission of sports for all.</div>
+              <div className="text-center flex-1"><b>2.</b> The host club chooses a charity who aligns with our core mission of sports for all.</div>
             </div>
             <div>
-              <div className="text-center"><b>3.</b> Fencers participate in a 12-hour livestream to raise money and have fun!</div>
-              <div className='px-16 py-12'>
-                <img src="fencinglive.gif" className='scale-175'/>
-              </div>
+              <div className="text-center flex-1"><b>3.</b> Fencers participate in a 12-hour livestream to raise money and have fun!</div>
+              <img src="fencinglive.gif" className='w-60' />
             </div>
           </div>
         </div>

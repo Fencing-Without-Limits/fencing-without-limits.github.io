@@ -28,7 +28,7 @@ export const Header = ({ scrollY }: { scrollY: MotionValue<number> }) => {
             onFocusCapture={hidden ? () => setHidden(false) : undefined}
             onMouseOver={() => setHover(true)}
             onMouseOut={() => setHover(false)}
-            className={'fixed z-[999] top-0 left-0 right-0 pt-8 px-8 md:px-14 lg:px-20 '}
+            className={'fixed z-[999] top-0 w-full min-w-lg pt-8 px-8 md:px-14 lg:px-20 '}
         >
             <motion.div
                 animate={
@@ -63,11 +63,11 @@ export const Header = ({ scrollY }: { scrollY: MotionValue<number> }) => {
                     <HashLink
                         smooth
                         to="#about"
-                        className="hover:font-semibold"
+                        className="hover:font-semibold max-md:hidden"
                     >
                         About Us
                     </HashLink>
-                    <div className="h-[80%] w-[1px] bg-black" />
+                    <div className="h-[80%] w-[1px] bg-black max-md:hidden" />
                     <a
                         target="_blank"
                         href="https://www.youtube.com/@FencingWithoutLimits/videos"
